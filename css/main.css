@@ -3,9 +3,8 @@
 @font-face {
   font-family: "SuisseIntlMono";
   font-weight: 400;
-  src: url("/assets/fonts/SuisseIntlMono-Regular.woff2") format("woff2"),
-       url("/assets/fonts/SuisseIntlMono-Regular.woff") format("woff"),
-       url("/assets/fonts/SuisseIntlMono-Regular.ttf") format("truetype");
+  src: url("/assets/fonts/Suisse\ Int\'l\ Mono.woff2") format("woff2"),
+       url("/assets/fonts/Suisse\ Int\'l\ Mono.woff") format("woff");
   font-display: swap;
 }
 
