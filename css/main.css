@@ -99,9 +99,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
+
 
 /* Layout */
 
@@ -235,10 +233,9 @@ h3.title {
   cursor: pointer;
 }
 
-.box:hover {
-  height: calc(100vh / 3);
-  width: 100%;
-}
+
+
+
 
 .image {
   opacity: 0;
@@ -258,9 +255,7 @@ h3.title {
   object-position: center;
 }
 
-.box:hover .image-still {
-  opacity: 1;
-}
+
 
 .hover-cursor {
   cursor: pointer;
@@ -290,16 +285,6 @@ h3.title {
   cursor: pointer;
 }
 
-.image-container:hover {
-  height: calc(100vh / 3);
-  width: 100%;
-}
-
-.image-container:hover .image {
-  height: 100%;
-  width: 100%;
-}
-
 .image {
   position: absolute;
   top: 0;
@@ -318,7 +303,28 @@ h3.title {
 
 .recent-work {
   margin-bottom: 25%;
+}
 
+@media (hover: hover) {
+  .box:hover {
+    height: calc(100vh / 3);
+    width: 100%;
+  }
+  .box:hover .image-still {
+    opacity: 1;
+  }
+  .image-container:hover {
+    height: calc(100vh / 3);
+    width: 100%;
+  }
+  .image-container:hover .image {
+    height: 100%;
+    width: 100%;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
 }
 
 /* Media queries */
@@ -408,6 +414,8 @@ h3.title {
   .image-box {
     flex-basis: 60%;
     height: calc(100vh / 5);
+    max-height: 140px;
+
   }
   .recent-work {
     margin-bottom: 75%;
