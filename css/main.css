@@ -271,13 +271,6 @@ h3.title {
   overflow: hidden;
 }
 
-.image-box,
-{
-  position: relative;
-  width: 16px;
-  height: 16px;
-}
-
 .image-container {
   position: relative;
   width: 16px;
@@ -437,7 +430,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 650px) { 
   .work-image,
   .image-box {
     flex-basis: 60%;
@@ -446,8 +439,14 @@ footer {
   }
 }
 
-
-
+@media only screen and (max-width: 500px) { 
+  .work-image,
+  .image-box {
+    flex-basis: 60%;
+    height: calc(100vh / 3);
+    max-height: 145px;
+  }
+}
 
 @media only screen and (max-width: 400px) { 
   .work-image,
