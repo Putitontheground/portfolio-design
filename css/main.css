@@ -316,6 +316,7 @@ footer {
   }
   .image-container:hover {
     height: calc(100vh / 3);
+    max-height: 300px;
     width: 100%;
   }
   .image-container:hover .image {
