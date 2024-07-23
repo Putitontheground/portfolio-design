@@ -308,6 +308,7 @@ footer {
 @media (hover: hover) {
   .box:hover {
     height: calc(100vh / 3);
+    max-height: 300px;
     width: 100%;
   }
   .box:hover .image-still {
